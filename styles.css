@@ -20,10 +20,12 @@ body {
     gap: 32px;
     flex-wrap: nowrap;
     justify-content: center;
-    align-items: flex-start;
+    align-items: stretch;
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
     background-color: #f2f1ed;
     border-radius: 12px;
     padding: 16px 16px;
@@ -77,6 +79,7 @@ body {
 
 .download-button {
     width: fit-content;
+    margin-top: auto;
     background-color: #e6e5e0;
     border: none;
     border-radius: 999px;
